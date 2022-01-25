@@ -13,7 +13,7 @@ public class wordsearch {
 
 
         FileReader fr = new FileReader(
-                "C:\\Users\\zaydz\\OneDrive - Institut Teknologi Bandung\\Semester 4\\Stima\\Tucil 1\\test\\"+file);
+                System.getProperty("user.dir")+"/test/"+file);
         
         ArrayList<ArrayList<Character>> grid = new ArrayList<ArrayList<Character>>();
         ArrayList<String> words = new ArrayList<String>();
